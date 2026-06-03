@@ -24,3 +24,10 @@ gaile
 thedai
   ssh-keygen -t ed25519 -C "obsidian-windows" -f ~/.ssh/id_ed25519_obsidian 
   cat ~/.ssh/id_ed25519_obsidian.pub
+cat : 找不到路径“C:\Users\dai\.ssh\id_ed25519_obsidian.pub”，因为该路径不存在。
+所在位置 行:1 字符: 1
++ cat ~/.ssh/id_ed25519_obsidian.pub
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dai\.s...19_obsidian.pub:String) [Get-Content], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
