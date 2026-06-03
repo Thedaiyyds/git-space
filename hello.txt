@@ -22,29 +22,3 @@ helloworld thedai!
 2222
 gaile
 thedai
-  ssh-keygen -t ed25519 -C "obsidian-windows" -f ~/.ssh/id_ed25519_obsidian 
-  cat ~/.ssh/id_ed25519_obsidian.pub
-cat : 找不到路径“C:\Users\dai\.ssh\id_ed25519_obsidian.pub”，因为该路径不存在。
-所在位置 行:1 字符: 1
-+ cat ~/.ssh/id_ed25519_obsidian.pub
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (C:\Users\dai\.s...19_obsidian.pub:String) [Get-Content], ItemNotFoundEx
-   ception
-    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
-  ls C:\Users\dai\.ssh\                                                                                                 
-    目录: C:\Users\dai\.ssh
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----          2026/6/3     21:05            411 id_ed25519
--a----          2026/6/3     21:05             99 id_ed25519.pub
-The authenticity of host 'github.com (20.205.243.166)' can't be established.
-ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
-This key is not known by any other names.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-  cd C:\Users\dai\Documents\GitHub\obsidian_cloud                                                                       
-  git remote set-url origin git@github.com:Thedaiyyds/obsidian_cloud.git                                                
-  git remote -v                                                                                                         
-  Get-ChildItem -Path C:\Users\dai -Directory -Filter ".obsidian" -Recurse -Depth 5 -ErrorAction SilentlyContinue       
