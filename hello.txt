@@ -31,3 +31,4 @@ cat : 找不到路径“C:\Users\dai\.ssh\id_ed25519_obsidian.pub”，因为该
     + CategoryInfo          : ObjectNotFound: (C:\Users\dai\.s...19_obsidian.pub:String) [Get-Content], ItemNotFoundEx
    ception
     + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+  ls C:\Users\dai\.ssh\                                                                                                 
