@@ -23,3 +23,4 @@ helloworld thedai!
 gaile
 thedai
   ssh-keygen -t ed25519 -C "obsidian-windows" -f ~/.ssh/id_ed25519_obsidian 
+  cat ~/.ssh/id_ed25519_obsidian.pub
