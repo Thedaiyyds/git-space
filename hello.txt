@@ -47,3 +47,4 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
   cd C:\Users\dai\Documents\GitHub\obsidian_cloud                                                                       
   git remote set-url origin git@github.com:Thedaiyyds/obsidian_cloud.git                                                
   git remote -v                                                                                                         
+  Get-ChildItem -Path C:\Users\dai -Directory -Filter ".obsidian" -Recurse -Depth 5 -ErrorAction SilentlyContinue       
